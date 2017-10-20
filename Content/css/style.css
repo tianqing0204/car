@@ -1,0 +1,197 @@
+body {
+  width: 100%;
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.4rem;
+  line-height: 0.4rem; }
+  .header .top {
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .header .top > span {
+      position: absolute;
+      right: 10px; }
+    .header .top > ul {
+      width: 1rem;
+      height: 100%;
+      text-align: center;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto; }
+      .header .top > ul > li {
+        flex: 1;
+        text-align: center; }
+
+.contend {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+  background: #ededed; }
+  .contend .banner {
+    width: 100%;
+    height: 1.1rem;
+    background: red; }
+    .contend .banner .swiper-container {
+      height: 100%; }
+      .contend .banner .swiper-container .swiper-wrapper {
+        height: 100%; }
+        .contend .banner .swiper-container .swiper-wrapper .swiper-slide {
+          height: 100%; }
+          .contend .banner .swiper-container .swiper-wrapper .swiper-slide > img {
+            height: 100%;
+            width: 100%; }
+  .contend .nav {
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    background: #fff; }
+    .contend .nav > dl {
+      flex: 1;
+      text-align: center;
+      padding: 10px 0; }
+      .contend .nav > dl > dt > span {
+        display: inline-block;
+        width: 0.38rem;
+        height: 0.38rem;
+        text-align: center;
+        line-height: 0.38rem;
+        border-radius: 100%; }
+        .contend .nav > dl > dt > span > i {
+          font-size: 0.18rem;
+          color: #fff; }
+      .contend .nav > dl > dd {
+        margin-top: 10px; }
+  .contend .imgs {
+    height: 0.65rem;
+    background: #ecf1f4; }
+    .contend .imgs .fang {
+      width: 90%;
+      height: 90%;
+      margin-right: auto;
+      margin-left: auto; }
+      .contend .imgs .fang > img {
+        width: 100%;
+        height: 100%; }
+  .contend .serve {
+    background: #fff; }
+    .contend .serve > h3 {
+      height: 0.45rem;
+      line-height: 0.45rem;
+      padding-left: 0.1rem;
+      color: #686868; }
+    .contend .serve .heng {
+      display: flex; }
+      .contend .serve .heng > dl {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        -webkit-flex-direction: column; }
+        .contend .serve .heng > dl > dt {
+          flex: 1; }
+          .contend .serve .heng > dl > dt > img {
+            width: 100%;
+            height: 100%; }
+        .contend .serve .heng > dl > dd {
+          height: 0.25rem;
+          line-height: 0.25rem; }
+  .contend .limit {
+    height: 1.7rem;
+    margin-top: 10px;
+    background: #fff;
+    position: relative; }
+    .contend .limit .time {
+      line-height: 0.44rem; }
+      .contend .limit .time > p > span {
+        display: inline-block;
+        width: 0.18rem;
+        height: 0.18rem;
+        text-align: center;
+        line-height: 0.18rem;
+        background: #555555;
+        color: #fff; }
+    .contend .limit #wrappers {
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: 44px; }
+      .contend .limit #wrappers > div {
+        width: 800px;
+        overflow: hidden; }
+        .contend .limit #wrappers > div ul {
+          width: 300%; }
+          .contend .limit #wrappers > div ul > li {
+            float: left; }
+            .contend .limit #wrappers > div ul > li > img {
+              width: 1.15rem;
+              height: 1.15rem;
+              margin-left: 10px; }
+  .contend .play {
+    margin-top: 10px;
+    background: #fff; }
+    .contend .play .up {
+      height: 0.4rem;
+      line-height: 0.4rem; }
+      .contend .play .up > p > i {
+        padding-left: 10px; }
+  .contend .tu {
+    width: 100%;
+    height: 1.2rem; }
+    .contend .tu > ul {
+      display: flex;
+      height: 100%; }
+      .contend .tu > ul > li {
+        flex: 1;
+        text-align: center; }
+        .contend .tu > ul > li > img {
+          width: 100%;
+          height: 100%; }
+  .contend .che {
+    margin-top: 10px;
+    background: #fff;
+    position: relative; }
+    .contend .che .up {
+      height: 0.4rem;
+      line-height: 0.4rem; }
+      .contend .che .up > p > i {
+        padding-left: 10px; }
+    .contend .che #wrapper {
+      width: 100%;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      background: #fff; }
+      .contend .che #wrapper .fullup {
+        height: 0.35rem;
+        line-height: 0.35rem;
+        text-align: center;
+        background-color: #00B7FF; }
+      .contend .che #wrapper .uu {
+        width: 100%; }
+        .contend .che #wrapper .uu > li {
+          height: 2.5rem;
+          width: 100%;
+          display: flex; }
+          .contend .che #wrapper .uu > li > dl {
+            flex: 1;
+            text-align: center; }
+            .contend .che #wrapper .uu > li > dl > dt {
+              width: 100%;
+              padding: 30px 0; }
+              .contend .che #wrapper .uu > li > dl > dt > img {
+                width: 100%; }
+            .contend .che #wrapper .uu > li > dl > dd > h3 {
+              line-height: 0.3rem; }
+            .contend .che #wrapper .uu > li > dl > dd > p {
+              line-height: 0.3rem;
+              color: #c3c3c3; }
+              .contend .che #wrapper .uu > li > dl > dd > p > span {
+                color: red; }
+
+/*# sourceMappingURL=style.css.map */

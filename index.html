@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="email" content="">
+    <meta name="keywords" content="111">
+    <meta name="description" content="222">
+    <title>Document</title>
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/css/swiper.min.css">
+    <link rel="stylesheet" href="Content/css/common.css">
+    <link rel="stylesheet" href="Content/css/reset.css">
+    <link rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="myapp">
+<header class="header">
+    <div class="top">
+         <span>
+            <i class="fa fa-search"></i>
+        </span>
+        <ul>
+            <li><a ng-href="#/fuwu">服务</a></li>
+            <li><a ng-href="#/jr">金融</a></li>
+        </ul>
+    </div>
+</header>
+<section class="contend">
+    <ng-view></ng-view>
+</section>
+<footer class="footer"></footer>
+<script src="Script/angular.min.js"></script>
+<script src="Script/angular-router.js"></script>
+<script src="Script/swiper.min.js"></script>
+<script src="Script/iscroll.js"></script>
+<script src="App/app.js"></script>
+<script src="App/Service/ajaxServer.js"></script>
+<script src="App/Service/appService.js"></script>
+<script src="App/Controller/fuwucontroller.js"></script>
+<script src="App/Controller/jrcontroller.js"></script>
+<script src="App/Directive/fuwudirective.js"></script>
+<script src="App/Directive/jrdirective.js"></script>
+<script src="Script/zepto.min.js"></script>
+<script>
+   /* var Swiper=new Swiper(".swiper-container",{
+        loop:true,
+        outoplay:1000,
+        speed:3000,
+        pagination:".swiper-pagination",
+        touchRatio:0.2
+    });*/
+
+  /* var scroll=new iScroll('wrapper',{
+       scrollbars:true,
+       fadeScrollbars:true,
+       topOffset:h,
+
+   })*/
+
+
+
+
+
+
+</script>
+</body>
+</html>
